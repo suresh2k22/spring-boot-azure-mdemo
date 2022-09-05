@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Footer</title>
+</head>
+<body>
+
+	<footer class="footer" th:fragment="footer"
+		xmlns:th="http://www.w3.org/1999/xhtml">
+		<div
+			class="d-sm-flex justify-content-center justify-content-sm-between">
+
+			<!-- <span
+				class="text-muted text-center text-sm-left d-block d-sm-inline-block">Premium
+				<a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap
+					admin template</a> from BootstrapDash.
+			</span> <span
+				class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Copyright
+				Â© 2021. All rights reserved.</span> -->
+
+
+			<div class="copyright text-center my-auto">
+				<span class="h6">&copy; 2020 <a
+					th:href="@{http://surgetechinc.com/}" style="color: #000;">SURGE
+						TECH.</a> All rights reserved | Developed by SURGE TECH.
+				</span>
+			</div>
+
+		</div>
+	</footer>
+</body>
+</html>
